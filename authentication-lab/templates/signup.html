@@ -5,7 +5,7 @@
     <title>Signup</title>
 </head>
 <body>
-    <form method="post" action="/signup">
+    <form method="POST" action="/">
         <!-- Heading -->
         <h4>
             Create an account
@@ -28,7 +28,7 @@
         <div>
             <label>Password*</label>
             <div class="input-group">
-                <input type="password"  name="password" minlength="6">
+                <input type="password"  name="password" minlength="6" required>
             </div>
         </div>
         
@@ -38,6 +38,6 @@
         </div>
     </form>
     <br>
-    <a href="/"><button>signin</button></a>
+    <a href="/signin"><button>signin</button></a>
 </body>
 </html>
