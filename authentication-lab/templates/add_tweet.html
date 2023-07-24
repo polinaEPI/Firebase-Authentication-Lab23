@@ -6,5 +6,26 @@
 </head>
 <body>
     Great Job!
+    <h2>add a tweet</h2>
+    <form method="POST" action="/add_tweet">
+       <div>
+            <label>titel*</label>
+            <div>
+                <input type="text"  name="title" minlength="6" >
+            </div>
+        </div>
+
+         <div>
+            <label>text*</label>
+            <div>
+                <input  maxlength="280" type="text"  name="text" minlength="6" >
+            </div>
+        </div>
+        
+        <div>
+            <input type="submit"/>
+        </div>
+  
+    </form>
 </body>
 </html>
